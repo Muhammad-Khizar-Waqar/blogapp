@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import { useDispatch } from "react-redux"
-import "./App.css"
 import authService from "./serviceppwrite/auth"
 import { login, logout } from "./store/feature/authSlice"
 import { Footer, Header } from "./components"
